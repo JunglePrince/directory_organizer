@@ -15,7 +15,7 @@ path = sys.argv[1]
 filetype = sys.argv[2]
 
 if not os.path.exists(path):
-	print("Path", path, "does not exist.")
+	print("Path \'" + path + "\' does not exist.")
 	exit(1)
 
 #read all jpg files in the directory
